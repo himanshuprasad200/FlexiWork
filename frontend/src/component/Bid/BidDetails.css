@@ -1,0 +1,166 @@
+.bidDetailsPage {
+  margin-top: 6vmax;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: "Arial, sans-serif";
+}
+
+.bidDetailsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bidHeader {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sectionHeader {
+  font-size: 20px;
+  margin: 20px 0 10px;
+  color: #666;
+}
+
+.bidDetailsContainerBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.bidDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.bidDetailLabel {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+  font-family: "Roboto";
+}
+
+.bidDetailValue {
+  font-size: 16px;
+  color: #333;
+  font-family: "Roboto";
+}
+
+.statusLabel {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.greenColor {
+  color: green;
+}
+
+.redColor {
+  color: red;
+}
+
+.bidDetailsBidItems {
+  padding: 20px;
+}
+
+.bidDetailsBidItemsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bidItemCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; 
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 100%;
+  max-width: 300px;
+}
+
+.bidItemCard:hover {
+  transform: translateY(-5px);
+}
+
+.bidItemImageContainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.bidItemImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bidItemContent {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bidItemName,
+.bidItemCategory,
+.bidItemPrice {
+  font-size: 14px;
+  color: #555;
+}
+
+.bidItemTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bidItemTitle:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+  .bidDetailsPage {
+    margin-top: 9vmax;
+  }
+
+  .bidDetailsContainer {
+    padding: 20px;
+  }
+  .bidHeader {
+    font-size: 20px;
+  }
+  .sectionHeader {
+    font-size: 18px;
+  }
+  .bidDetailLabel,
+  .bidDetailValue {
+    font-size: 18px;
+  }
+
+  .statusLabel{
+    font-size: 20px;
+  }
+
+  .bidDetailsBidItemsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bidDetailsBidItems > h5 {
+    padding: 10px;
+  }
+}

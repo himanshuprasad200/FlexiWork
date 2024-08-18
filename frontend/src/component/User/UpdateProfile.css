@@ -1,0 +1,122 @@
+/* UpdateProfile.css */
+
+.updateProfileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-color: #f5f5f5;
+  }
+  
+  .updateProfileBox {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .updateProfileBox h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .updateProfileForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .updateProfileForm div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .updateProfileForm input[type="text"],
+  .updateProfileForm input[type="email"],
+  .updateProfileForm input[type="number"],
+  .updateProfileForm input[type="file"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .updateProfileForm input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .updateProfileForm input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .updateProfileName svg,
+  .updateProfileEmail svg,
+  .professionalHeadline svg,
+  .country svg,
+  .accountNo svg,
+  .upiId svg {
+    color: #007bff;
+  }
+  
+  #updateProfileImage {
+    display: flex;
+    align-items: center;
+  }
+  
+  #updateProfileImage img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  #updateProfileImage input[type="file"] {
+    cursor: pointer;
+    width: auto;
+    z-index: 2;
+    border: none;
+    margin: 0;
+    font: 400 0.8vmax cursive;
+    transition: all 0.5s;
+    padding: 0 0vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+  }
+
+  #updateProfileImage > input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font: 400 0.8vmax cursive;
+    transition: all 0.5s;
+    padding: 0 0vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .profilePicture {
+    margin-bottom: 10px;
+    color: #555;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .updateProfileContainer {
+      min-height: 100vh;
+    }
+    
+    
+  }
+  

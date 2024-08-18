@@ -1,0 +1,109 @@
+.newProjectContainer {
+    flex: 1;
+    padding: 2rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .createProjectForm {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createProjectForm h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .createProjectForm > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .createProjectForm input,
+  .createProjectForm select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-left: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  
+  .createProjectForm input:focus,
+  .createProjectForm select:focus {
+    border-color: #007bff;
+  }
+
+  .createProjectForm textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-left: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+    resize: vertical;
+    height: 120px; /* Adjust height as needed */
+  }
+  
+  .createProjectForm textarea:focus {
+    border-color: #007bff;
+  }
+  
+  
+  #createProjectFormFile {
+    margin-top: 1rem;
+  }
+  
+  #createProjectFormImage img {
+    width: 100%;
+    max-width: 100px;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+  
+  #createProjectBtn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #createProjectBtn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  #createProjectBtn:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .createProjectForm {
+      padding: 1rem;
+    }
+  
+    .createProjectForm h1 {
+      font-size: 1.5rem;
+    }
+  }

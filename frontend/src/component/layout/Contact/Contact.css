@@ -1,0 +1,70 @@
+/* Contact.css */
+.contact-container {
+    padding: 2rem;
+    margin-top: 80px; /* Adjust this value to match the height of your fixed header */
+    background-color: #f4f4f4; /* Background color for better visibility */
+    min-height: 80vh; /* Ensure the section takes enough vertical space */
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .contact-container p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .contact-form {
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background: #fff; /* Form background color */
+    padding: 2rem; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for better separation */
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+    height: 150px; /* Default height for textarea */
+  }
+  
+  .contact-form button.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1772eb;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-form button.submit-button:hover {
+    background-color: #0056b3;
+  }
+  

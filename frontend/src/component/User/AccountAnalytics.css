@@ -1,0 +1,72 @@
+.accountAnalytics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.earningDetails p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.earningDetails p:first-of-type {
+  font-weight: bold;
+}
+
+.chart {
+  width: 100%;
+  max-width: 800px;
+  height: 400px; /* Adjust this height to make the chart larger */
+  padding: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+@media (max-width: 768px) {
+  .accountAnalytics {
+    padding-top: 100px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+
+  .earningDetails p {
+    font-size: 16px;
+  }
+  
+  .chart {
+    padding: 10px;
+    height: 300px; /* Adjust height for smaller screens */
+  }
+}

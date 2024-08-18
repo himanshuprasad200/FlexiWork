@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(235, 237, 237);
+}
+
+/* App.css */
+.profile-img-container {
+  z-index: 2;
+  position: fixed;
+  right: 5.4vmax;
+  top: 16px;
+}
+
+.profile-img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  border-radius: 100%;
+ 
+}
+
+@media (max-width: 768px) {
+  .profile-img-container {
+    right: 3.6vmax;
+    top: 16px;
+  }
+}
+
+.greenColor{
+  color: green !important;
+}
+
+.redColor{
+  color: red !important;
+}
+
+.orangeColor{
+  color: orange !important;;
+}
